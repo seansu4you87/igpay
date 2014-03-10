@@ -22,6 +22,10 @@ var translateTests = []struct {
 		in:  "hat",
 		out: "athay",
 	},
+	{
+		in:  "egg",
+		out: "eggday",
+	},
 }
 
 func TestTranslate(t *testing.T) {
